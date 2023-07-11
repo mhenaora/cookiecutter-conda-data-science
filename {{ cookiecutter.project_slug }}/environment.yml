@@ -20,6 +20,7 @@ dependencies:
   {% endif -%}
   - nbdime
   - numpy
+  - opencv
   - pandas
   {% if cookiecutter.project_packages == "All" -%}
   - pandas-flavor
